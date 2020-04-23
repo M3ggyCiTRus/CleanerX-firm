@@ -89,9 +89,6 @@ firm: $(ELF) vram0
 	@echo "[VERSION] $(VERSION)"
 	@echo "[BUILD] $(DBUILTL)"
 	@echo "[FIRM] $(FIRM)"
-	@echo "[ELF] $(ELF)"
-	@echo "[VRAM_OUT0] $(VRAM_OUT)"
-	@echo "[FTFLAGS] $(FTFLAGS)"
 	@$(PY3) -m firmtool build $(FIRM) $(FTFLAGS) -g -A 0x18000000 -D $(ELF) $(VRAM_OUT) -C NDMA XDMA memcpy
 	@echo "[FIRM] $(FIRMD)"
 	@$(PY3) -m firmtool build $(FIRMD) $(FTDFLAGS) -g -A 0x18000000 -D $(ELF) $(VRAM_OUT)  -C NDMA XDMA memcpy
