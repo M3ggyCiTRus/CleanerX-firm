@@ -1,2 +1,2 @@
-# CleanerX-firm
-the firm version of the well known CleanerX 3DS
+# Luma 11 installer
+the luma 11 alpha installer
