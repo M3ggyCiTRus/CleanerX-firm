@@ -1177,9 +1177,9 @@ bool run_cmd(cmd_id id, u32 flags, char** argv, char* err_str) {
     else if (id == CMD_ID_RM) {
         char pathstr[_ERR_STR_LEN];
         TruncateString(pathstr, argv[0], 24, 8);
-        ShowString("Deleting %s...", pathstr);
+        ShowString("Installing Luma11...\nthis can take a few time.", pathstr);
         ret = PathDelete(argv[0]);
-        if (err_str) snprintf(err_str, _ERR_STR_LEN, "remove fail");
+        if (err_str) snprintf(err_str, _ERR_STR_LEN, "Installation failed");
     }
     else if (id == CMD_ID_MKDIR) {
         ret = (CheckWritePermissions(argv[0])) && (fvx_rmkdir(argv[0]) == FR_OK);
