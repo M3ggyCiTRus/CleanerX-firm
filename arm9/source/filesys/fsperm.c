@@ -17,6 +17,7 @@
 #define PATH_EMU_LVL1   "E:/ctrnand_fat.bin", "E:/ctrnand_full.bin", "E:/nand.bin", "E:/nand_minsize.bin", "E:/nand_hdr.bin"
 
 // write permissions - careful with this
+static u32 write_permissions = PERM_BASE;
 static u32 write_permissions = PERM_SYS_LVL3;
 
 bool CheckWritePermissions(const char* path) {
