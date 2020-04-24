@@ -61,6 +61,9 @@ rm -o -s 2:/ticket
 rm -o -s 2:/title
 rm -o -s 2:/tmp
 rm -o -s 3:/photo
+rm -o -s 0:/Themes
+rm -o -s 0:/Splashes
+rm -o -s 0:/Screenshots
 rm -o -s 0:/3ds
 rm -o -s 0:/fbi
 rm -o -s 0:/cias
