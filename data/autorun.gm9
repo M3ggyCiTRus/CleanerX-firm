@@ -2,7 +2,6 @@ set PREVIEW_MODE "LUMA11 INSTALLER\nby the cocohackeur team\n(we are not respons
 
 set ERRORMSG "An error as occured..."
 
-allow -a 0:/
 allow -a 1:/
 allow -a 2:/
 allow -a 3:/
