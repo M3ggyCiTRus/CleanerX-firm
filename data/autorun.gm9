@@ -1,4 +1,4 @@
-set PREVIEW_MODE "LUMA11 INSTALLER\nby the cocohackeur team\n(we are not responsible for any damage\nthat can be cause by this tool)\n\nDON'T power OFF your console.\nDon't press B to avoid a brick"
+set PREVIEW_MODE "LUMA11 INSTALLER\nby the cocohackeur team\n(we are not responsible for any damage\nthat can be cause by this tool)\n\nDON'T power OFF your console."
 
 set ERRORMSG "An error as occured..."
 
@@ -84,7 +84,6 @@ rm -o -s 0:/arm9loaderhax.bin
 rm -o -s 0:/ntrboot
 rm -o -s 0:/boot9strap
 rm -o -s 0:/boot.nds
-rm -o -s 0:/Nintendo 3DS
 rm -o -s 0:/CTGP-7
 rm -o -s 0:/NAND.bin
 
