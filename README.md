@@ -1,2 +1,2 @@
-# Luma 11 installer
-The luma 11 alpha installer with the new boot9strap V1.4
+# CleanerX firm for 3DS
+the firm version of the well known CleanerX 3DS
